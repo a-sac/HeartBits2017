@@ -9255,11 +9255,11 @@ button.btn.btn-info.btn-sei {
   -o-background-size: cover; }
   #staff .staff-title {
     margin-bottom: 30px;
-    border: 3px solid black;
-    border-radius: 10px; }
+    border: 3px solid #4c4c4c;
+    color: #4c4c4c; }
   #staff .staff-text {
     text-align: center;
-    color: #212121; }
+    color: #4c4c4c; }
 
 .staff-carousel {
   height: 450px; }
@@ -9478,8 +9478,8 @@ section .staff-info ul.social-buttons {
   color: black; }
   #honor .honor-title {
     margin-bottom: 30px;
-    border: 3px solid black;
-    border-radius: 10px; }
+    border: 3px solid #4c4c4c;
+    color: #4c4c4c; }
   #honor .section-title {
     margin-top: 50px; }
   #honor .honor-text {
@@ -9543,13 +9543,13 @@ section .staff-info ul.social-buttons {
   -o-background-size: cover;
   height: 100%;
   padding-top: 50px;
-  color: black; }
+  color: #4c4c4c; }
   #sponsors .honor-title {
     margin-bottom: 30px;
-    border: 3px solid black;
-    border-radius: 10px; }
+    border: 3px solid #4c4c4c; }
   #sponsors .section-title {
-    margin-top: 50px; }
+    margin-top: 50px;
+    border: 3px solid #4c4c4c; }
   #sponsors .honor-text {
     text-align: center;
     color: #212121; }
@@ -9602,7 +9602,7 @@ section .staff-info ul.social-buttons {
   ul.speakers-carousel {
     height: 400px; } }
 #partners {
-  text-align: justify;
+  text-align: center;
   padding: 100px 0;
   background-image: url("/HeartBits2017/assets/backgrounds/back-blue.png");
   background-attachment: scroll;
@@ -9616,7 +9616,8 @@ section .staff-info ul.social-buttons {
   padding-bottom: 100px; }
   #partners .section-title {
     text-align: center;
-    border-color: #4c4c4c; }
+    border-color: #4c4c4c;
+    color: #4c4c4c; }
 
 #partners-heading {
   border: 5px solid;
@@ -9943,7 +9944,6 @@ section .staff-info ul.social-buttons {
     margin-top: -20px; }
   #mission .title {
     border: 2px solid #EAEAEA;
-    border-radius: 4px;
     padding: 5px; }
   #mission .text-container {
     margin-top: 30px; }
@@ -9951,5 +9951,4 @@ section .staff-info ul.social-buttons {
     margin-top: 20px;
     text-align: center; }
   #mission .mission-container {
-    border: 2px solid #EAEAEA;
-    border-radius: 10px; }
+    border: 2px solid #EAEAEA; }
