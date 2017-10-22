@@ -7888,6 +7888,8 @@ button.close {
   #about .agenda-icon {
     margin-top: 20px;
     text-align: center; }
+  #about #google-map {
+    width: 100%; }
 
 /*!
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
@@ -9553,6 +9555,13 @@ section .staff-info ul.social-buttons {
   #sponsors .honor-text {
     text-align: center;
     color: #212121; }
+  #sponsors .sponsor-logo {
+    width: 100px; }
+  #sponsors .partner-img {
+    heigth: 150px;
+    width: 100%;
+    margin: auto;
+    margin-top: 50px; }
 
 .aboutspeaker {
   color: black;
@@ -9952,3 +9961,6 @@ section .staff-info ul.social-buttons {
     text-align: center; }
   #mission .mission-container {
     border: 2px solid #EAEAEA; }
+  @media (max-width: 975px) {
+    #mission .space {
+      margin-top: 200px; } }
