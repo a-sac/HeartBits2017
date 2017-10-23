@@ -7831,7 +7831,7 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
-#registracions {
+#icons {
   padding: 100px 0;
   background-size: cover;
   background-attachment: scroll;
@@ -7842,30 +7842,31 @@ button.close {
   height: auto;
   text-align: center;
   color: #fff;
-  background-image: url("/HeartBits2017/assets/backgrounds/fundo2_amarelo_rev.png");
-  background-attachment: fixed;
+  background-color: #18A0C1;
   background-position: center center;
   background-repeat: none;
   background-size: cover;
   -o-background-size: cover; }
-  #registracions .title-container {
+  #icons .title-container {
     text-align: left;
     font-size: 1.2em;
     margin-top: -20px; }
-  #registracions .title {
+  #icons .title {
     border: 2px solid #EAEAEA;
     border-radius: 4px;
     padding: 5px; }
-  #registracions .text-container {
+  #icons .text-container {
     margin-top: 30px; }
-  #registracions .agenda-icon {
+  #icons .agenda-icon {
     margin-top: 20px;
     text-align: center; }
+  #icons .icons-space {
+    margin-top: 50px; }
 
 #about {
   text-align: justify;
   padding: 100px 0;
-  background-image: url("/HeartBits2017/assets/backgrounds/prometeu.png");
+  background-image: url("/HeartBits2017/assets/backgrounds/fachada_hospital_fundo_map.png");
   background-attachment: scroll;
   font-size: 1.2em;
   font-family: "Lato";
@@ -7884,12 +7885,15 @@ button.close {
     border-radius: 4px;
     padding: 5px; }
   #about .text-container {
-    margin-top: 30px; }
+    margin-top: 30px;
+    text-align: center; }
   #about .agenda-icon {
     margin-top: 20px;
     text-align: center; }
   #about #google-map {
-    width: 100%; }
+    width: 100%;
+    margin-top: 20px;
+    height: 350px; }
 
 /*!
  * Start Bootstrap - Agency Bootstrap Theme (http://startbootstrap.com)
@@ -8612,7 +8616,7 @@ body {
   color: #4c4c4c; }
 
 #quotes {
-  background: url("/HeartBits2017/assets/backgrounds/fundo_maca2.png") no-repeat center center;
+  background: url("/HeartBits2017/assets/backgrounds/fundo_bubble_2.png") no-repeat center center;
   background-size: cover;
   -o-background-size: cover;
   background-attachment: scroll;
@@ -8627,9 +8631,6 @@ body {
   border: 5px solid;
   letter-spacing: 0.3em;
   padding-bottom: 10px; }
-
-.title-container div.partners-title {
-  border-color: #EAEAEA; }
 
 .partners-header {
   overflow: hidden; }
@@ -8684,7 +8685,7 @@ body {
     width: 40%; }
 
 .quotes-carousel {
-  color: #EAEAEA;
+  color: #4c4c4c;
   margin-bottom: 50px; }
   .quotes-carousel .slick-track {
     display: -webkit-box;
@@ -8700,7 +8701,6 @@ body {
   .quotes-carousel .slick-dots {
     margin-bottom: 30px; }
     .quotes-carousel .slick-dots li.slick-active button::before, .quotes-carousel .slick-dots li button::before {
-      color: #EAEAEA;
       font-size: 20px; }
 
 .quote-img {
@@ -8717,11 +8717,10 @@ footer {
   background-attachment: fixed;
   padding-bottom: 2%;
   background-size: 100%;
-  width: 100%; }
-  footer h4 {
-    color: #227ff0; }
-  footer h6 {
-    color: #227ff0; }
+  width: 100%;
+  background-image: url("/HeartBits2017/assets/backgrounds/footer_v1.png");
+  color: #4c4c4c;
+  text-decoration: none; }
   footer .fa {
     margin: 0 10px; }
   footer .media-left img {
@@ -8729,9 +8728,12 @@ footer {
     height: 50px; }
   footer p a {
     text-decoration: underline;
-    margin-bottom: 5px; }
+    margin-bottom: 5px;
+    color: #4c4c4c; }
     footer p a:hover, footer p a:focus {
       text-decoration: underline; }
+  footer i {
+    color: #4c4c4c; }
   footer .left {
     float: center;
     text-align: right;
@@ -8856,7 +8858,7 @@ button.btn.btn-info.btn-sei {
   height: auto;
   padding: 100px 0;
   text-align: center;
-  background-image: url("/HeartBits2017/assets/backgrounds/babyblue.png");
+  background-image: url("/HeartBits2017/assets/backgrounds/fundo_hospital_1.png");
   background-size: cover;
   -o-background-size: cover;
   background-attachment: fixed; }
@@ -8906,7 +8908,7 @@ button.btn.btn-info.btn-sei {
 #heartbits #heartbits-info {
   text-align: justify;
   padding: 100px 0;
-  background-image: url("/HeartBits2017/assets/backgrounds/fundo2_cinza_amarelo_rev.png");
+  background-image: url("/HeartBits2017/assets/backgrounds/babyblue.png");
   background-attachment: scroll;
   font-size: 1.2em;
   font-family: "Lato";
@@ -8915,7 +8917,11 @@ button.btn.btn-info.btn-sei {
   background-repeat: none;
   background-size: cover;
   -o-background-size: cover;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+  color: #4c4c4c; }
+  #heartbits #heartbits-info .btn-hack {
+    color: #4c4c4c;
+    border-color: #4c4c4c; }
   #heartbits #heartbits-info .info {
     margin-bottom: 30px; }
     #heartbits #heartbits-info .info .info-text {
@@ -9250,7 +9256,7 @@ button.btn.btn-info.btn-sei {
 #staff {
   padding-bottom: 75px;
   background-attachment: fixed;
-  background-image: url("/HeartBits2017/assets/backgrounds/back-blue.png");
+  background-image: url("/HeartBits2017/assets/backgrounds/babyblue.png");
   background-position: center center;
   background-repeat: none;
   background-size: cover;
@@ -9689,7 +9695,6 @@ section .staff-info ul.social-buttons {
     width: 40%; }
 
 .quotes-carousel {
-  color: #EAEAEA;
   margin-bottom: 50px; }
   .quotes-carousel .slick-track {
     display: -webkit-box;
@@ -9719,7 +9724,7 @@ section .staff-info ul.social-buttons {
 #heartbits-info {
   text-align: justify;
   padding: 100px 0;
-  background-image: url("/HeartBits2017/assets/backgrounds/fundo2_cinza_amarelo_rev.png");
+  background-image: url("/HeartBits2017/assets/backgrounds/babyblue.png");
   background-attachment: scroll;
   font-size: 1.2em;
   font-family: "Lato";
@@ -9728,7 +9733,11 @@ section .staff-info ul.social-buttons {
   background-repeat: none;
   background-size: cover;
   -o-background-size: cover;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+  color: #4c4c4c; }
+  #heartbits-info .btn-hack {
+    color: #4c4c4c;
+    border-color: #4c4c4c; }
   #heartbits-info .info {
     margin-bottom: 30px; }
     #heartbits-info .info .info-text {
