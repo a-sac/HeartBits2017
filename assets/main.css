@@ -9502,7 +9502,7 @@ section .staff-info ul.social-buttons {
 #sponsors {
   text-align: center;
   background-attachment: fixed;
-  background-image: url("/HeartBits2017/assets/backgrounds/back-blue.png");
+  background-image: url("/HeartBits2017/assets/backgrounds/fundo2_claro.png");
   background-position: center center;
   background-repeat: none;
   background-size: cover;
@@ -9626,7 +9626,7 @@ section .staff-info ul.social-buttons {
 #partners {
   text-align: center;
   padding: 100px 0;
-  background-image: url("/HeartBits2017/assets/backgrounds/back-blue.png");
+  background-image: url("/HeartBits2017/assets/backgrounds/fundo2_claro.png");
   background-attachment: scroll;
   font-size: 1.2em;
   font-family: "Lato";
