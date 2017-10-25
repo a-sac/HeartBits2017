@@ -7857,9 +7857,6 @@ button.close {
     padding: 5px; }
   #icons .text-container {
     margin-top: 30px; }
-  #icons .agenda-icon {
-    margin-top: 20px;
-    text-align: center; }
   #icons .icons-space {
     margin-top: 50px; }
 
@@ -8928,13 +8925,60 @@ button.btn.btn-info.btn-sei {
       line-height: 2.05em; }
     #heartbits #heartbits-info .info .btn-left {
       margin: 10px 0; }
-#heartbits #heartbits-awards {
-  padding: 100px 0;
-  background: url("/assets/backgrounds/light-stuff.png") no-repeat center center;
+#heartbits #awards {
+  padding: 0 0 50px;
   background-size: cover;
-  background-attachment: fixed; }
-  #heartbits #heartbits-awards .activities-description {
-    font-size: 1.2em; }
+  background-attachment: scroll;
+  font-size: 1.2em;
+  font-family: "Lato";
+  display: table;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #fff;
+  background-color: #acc4cc;
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  -o-background-size: cover; }
+  #heartbits #awards .title-container {
+    text-align: left;
+    font-size: 1.2em;
+    margin-top: -20px; }
+  #heartbits #awards .title {
+    border: 2px solid #EAEAEA;
+    border-radius: 4px;
+    padding: 5px; }
+  #heartbits #awards .text-container {
+    margin-top: 30px; }
+  #heartbits #awards .icons-space {
+    margin-top: 50px; }
+  #heartbits #awards .awards {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+    #heartbits #awards .awards .award {
+      max-width: 20%;
+      margin: 20px; }
+      #heartbits #awards .awards .award .award-5 {
+        font-size: 2.5em; }
+      #heartbits #awards .awards .award .award-4 {
+        font-size: 3em; }
+      #heartbits #awards .awards .award .award-3 {
+        font-size: 3.5em; }
+      #heartbits #awards .awards .award .award-2 {
+        font-size: 4.5em; }
+      #heartbits #awards .awards .award .award-1 {
+        font-size: 5em; }
 #heartbits #heartbits-organisation {
   padding: 100px 0;
   background-color: #F46519;
