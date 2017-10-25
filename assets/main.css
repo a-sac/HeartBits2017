@@ -7832,7 +7832,7 @@ button.close {
   .hidden-print {
     display: none !important; } }
 #icons {
-  padding: 100px 0;
+  padding: 0 0 50px;
   background-size: cover;
   background-attachment: scroll;
   font-size: 1.2em;
