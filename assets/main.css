@@ -8541,7 +8541,8 @@ body {
   padding: 0px;
   font-size: 56.3%;
   font-family: "Lato", sans-serif;
-  font-weight: normal; }
+  font-weight: normal;
+  color: #4c4c4c; }
   #nav-logo div {
     position: relative;
     display: none;
@@ -8715,7 +8716,7 @@ footer {
   padding-bottom: 2%;
   background-size: 100%;
   width: 100%;
-  background-image: url("/assets/backgrounds/footer9.png");
+  background-image: url("/assets/backgrounds/footer34.png");
   color: #4c4c4c;
   text-decoration: none; }
   footer .fa {
@@ -9261,7 +9262,7 @@ button.btn.btn-info.btn-sei {
 #staff {
   padding-bottom: 75px;
   background-attachment: fixed;
-  background-image: url("/assets/backgrounds/fruta.png");
+  background-image: url("/assets/backgrounds/macacomrato.png");
   background-position: center center;
   background-repeat: none;
   background-size: cover;
