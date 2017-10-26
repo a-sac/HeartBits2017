@@ -7841,8 +7841,8 @@ button.close {
   width: 100%;
   height: auto;
   text-align: center;
-  color: #fff;
-  background-color: #acc4cc;
+  color: #4c4c4c;
+  background-color: #cfdee3;
   background-position: center center;
   background-repeat: none;
   background-size: cover;
@@ -8712,11 +8712,10 @@ body {
 /* Footer Styles */
 footer {
   background: #191919;
-  background-attachment: fixed;
   padding-bottom: 2%;
   background-size: 100%;
   width: 100%;
-  background-image: url("/assets/backgrounds/footer_v2.png");
+  background-image: url("/assets/backgrounds/footer9.png");
   color: #4c4c4c;
   text-decoration: none; }
   footer .fa {
@@ -8906,7 +8905,7 @@ button.btn.btn-info.btn-sei {
 #heartbits #heartbits-info {
   text-align: justify;
   padding: 100px 0;
-  background-image: url("/assets/backgrounds/fundosuave.png");
+  background-image: url("/assets/backgrounds/esteto.png");
   background-attachment: scroll;
   font-size: 1.2em;
   font-family: "Lato";
@@ -8936,8 +8935,8 @@ button.btn.btn-info.btn-sei {
   width: 100%;
   height: auto;
   text-align: center;
-  color: #fff;
-  background-color: #acc4cc;
+  color: #4c4c4c;
+  background-color: #cfdee3;
   background-position: center center;
   background-repeat: none;
   background-size: cover;
@@ -9262,7 +9261,7 @@ button.btn.btn-info.btn-sei {
 #staff {
   padding-bottom: 75px;
   background-attachment: fixed;
-  background-image: url("/assets/backgrounds/babyblue.png");
+  background-image: url("/assets/backgrounds/fruta.png");
   background-position: center center;
   background-repeat: none;
   background-size: cover;
@@ -9550,7 +9549,7 @@ section .staff-info ul.social-buttons {
 #sponsors {
   text-align: center;
   background-attachment: fixed;
-  background-image: url("/assets/backgrounds/fundo2_claro.png");
+  background-image: url("/assets/backgrounds/fundo_claro9.png");
   background-position: center center;
   background-repeat: none;
   background-size: cover;
@@ -9674,7 +9673,7 @@ section .staff-info ul.social-buttons {
 #partners {
   text-align: center;
   padding: 100px 0;
-  background-image: url("/assets/backgrounds/fundo2_claro.png");
+  background-image: url("/assets/backgrounds/fundo_claro9.png");
   background-attachment: scroll;
   font-size: 1.2em;
   font-family: "Lato";
@@ -9772,7 +9771,7 @@ section .staff-info ul.social-buttons {
 #heartbits-info {
   text-align: justify;
   padding: 100px 0;
-  background-image: url("/assets/backgrounds/fundosuave.png");
+  background-image: url("/assets/backgrounds/esteto.png");
   background-attachment: scroll;
   font-size: 1.2em;
   font-family: "Lato";
