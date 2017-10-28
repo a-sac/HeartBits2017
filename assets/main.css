@@ -9354,7 +9354,7 @@ body {
 .page-scroll.disabled {
   opacity: 0.1; }
 
-.navbar-custom, .navbar-custom.top-nav-collapse {
+.navbar-custom.top-nav-collapse {
   background-color: #3241a6; }
 
 .nav-item a {
