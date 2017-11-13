@@ -8743,8 +8743,8 @@ body {
   width: 100%;
   height: auto;
   text-align: center;
-  color: #222;
-  background-color: #fafafa;
+  color: #fafafa;
+  background-color: #3241a6;
   background-position: center center;
   background-repeat: none;
   background-size: cover;
@@ -8754,22 +8754,23 @@ body {
     font-size: 1.2em;
     margin-top: -20px; }
   #home #benefits .title {
-    border: 2px solid #EAEAEA;
+    border: 2px solid #fafafa;
     border-radius: 4px;
-    padding: 5px; }
+    padding: 5px;
+    color: #fafafa; }
   #home #benefits .text-container {
     margin-top: 30px; }
   #home #benefits .icons-space {
     margin-top: 50px;
     color: #EFA554; }
     #home #benefits .icons-space h4 {
-      color: #222; }
+      color: #fafafa; }
     #home #benefits .icons-space h6 {
-      color: rgba(51, 51, 51, 0.75); }
+      color: #fafafa; }
 #home #where {
   text-align: justify;
   padding: 100px 0;
-  background-color: #3241a6;
+  background-color: #fafafa;
   background-attachment: scroll;
   font-size: 1.2em;
   font-family: "Lato";
@@ -8787,6 +8788,8 @@ body {
     border: 2px solid #EAEAEA;
     border-radius: 4px;
     padding: 5px; }
+  #home #where h4 {
+    color: #333333; }
   #home #where .text-container {
     margin-top: 30px;
     text-align: center; }
