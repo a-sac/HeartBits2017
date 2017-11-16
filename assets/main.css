@@ -9715,15 +9715,17 @@ footer {
   background-size: cover;
   -o-background-size: cover; }
   #mentorsbody.business, #mentorsbody.health {
-    background-color: #fafafa; }
+    background-color: #fafafa;
+    margin-top: 10px; }
   #mentorsbody.tech {
-    background-color: rgba(255, 255, 255, 0.8); }
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 10px; }
   #mentorsbody h2 {
     color: #f58032;
-    margin-top: 0;
+    margin-top: 22px;
     margin-bottom: 22px; }
   #mentorsbody .mentor {
-    margin-bottom: 10px; }
+    margin-bottom: 20px; }
   #mentorsbody .mentors-text {
     text-align: center;
     color: #212121; }
