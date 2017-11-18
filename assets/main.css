@@ -9614,10 +9614,10 @@ footer {
   width: 100px;
   heigth: 100px; }
 
-#honor {
-  text-align: center;
+#honorshead {
   background-attachment: fixed;
-  background-image: url("/assets/backgrounds/back-blue.png");
+  background-image: -webkit-radial-gradient(circle, #3241a6 0, #202a6b 120%);
+  background-image: radial-gradient(circle, #3241a6 0, #202a6b 120%);
   background-position: center center;
   background-repeat: none;
   background-size: cover;
@@ -9625,63 +9625,63 @@ footer {
   height: 100%;
   padding-top: 50px;
   color: black; }
-  #honor .honor-title {
+  #honorshead .honor-title {
     margin-bottom: 30px;
-    border: 3px solid #4c4c4c;
-    color: #4c4c4c; }
-  #honor .section-title {
-    margin-top: 50px; }
-  #honor .honor-text {
+    border: 3px solid #fafafa;
+    color: #fafafa; }
+  #honorshead .section-title-container {
     text-align: center;
-    color: #212121; }
+    margin-top: 50px; }
+  #honorshead .honor-text {
+    text-align: center;
+    color: #fafafa; }
 
-.aboutspeaker {
-  color: black;
-  text-align: justify;
-  line-height: 150%;
-  font-weight: bold;
-  font-size: 16px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center; }
+#honorsbody {
+  background-size: cover;
+  background-attachment: scroll;
+  font-size: 1.2em;
+  font-family: "Lato";
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  color: #222;
+  background-position: center center;
+  background-repeat: none;
+  background-size: cover;
+  -o-background-size: cover; }
+  #honorsbody.gray {
+    background-color: rgba(255, 255, 255, 0.8); }
+  #honorsbody.white {
+    background-color: #fafafa; }
+  #honorsbody .member-img {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    top: 50%;
+    margin: 80px 0px;
+    background-size: cover; }
+  #honorsbody .member-info {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 70%;
+    padding: 0px 20px;
+    margin: 20px; }
+  #honorsbody .member-name {
+    color: #f58032;
+    font-size: 22px; }
+  #honorsbody .honor-job {
+    text-transform: none;
+    font-size: 20px; }
+  #honorsbody .honor-bio {
+    text-align: justify;
+    text-justify: inter-word; }
+  #honorsbody .honor-comment {
+    margin: 20px 0px;
+    text-align: justify;
+    text-justify: inter-word; }
 
-.aboutspeakers-title {
-  float: right;
-  margin-top: 50px; }
-
-.whitebox {
-  border: 1px solid white;
-  width: 50%;
-  margin-bottom: 50px; }
-
-.timeandloc {
-  float: rigth; }
-
-.speak-list {
-  margin: 0px 0px 50px 0px; }
-
-.speakers-def {
-  font-size: 18px;
-  margin-top: 50px;
-  margin-bottom: 100px; }
-
-@media (max-width: 767px) {
-  .aboutspeaker {
-    padding: 0; }
-
-  section ul.social-buttons li a {
-    height: 30px;
-    width: 30px;
-    font-size: 14px;
-    line-height: 30px; }
-
-  ul.speakers-carousel {
-    height: 400px; } }
 #mentorsheader {
   text-align: center;
   background-attachment: fixed;
