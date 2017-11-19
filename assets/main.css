@@ -9250,6 +9250,10 @@ body {
   #sponsors .wide-logo {
     width: 250px;
     margin: 10px 10px 10px 10px; }
+    #sponsors .wide-logo.startup {
+      width: 300px; }
+    #sponsors .wide-logo.large {
+      width: 400px; }
   @media (max-width: 767px) {
     #sponsors .aboutspeaker {
       padding: 0; }
