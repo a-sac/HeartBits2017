@@ -9253,7 +9253,10 @@ body {
     #sponsors .wide-logo.startup {
       width: 300px; }
     #sponsors .wide-logo.large {
-      width: 400px; }
+      width: 350px; }
+      @media (max-width: 378px) {
+        #sponsors .wide-logo.large {
+          width: 300px; } }
   @media (max-width: 767px) {
     #sponsors .aboutspeaker {
       padding: 0; }
